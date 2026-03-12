@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="PetVille Pet Shop em São Paulo: banho e tosa, atendimento veterinário, produtos, hospedagem e atendimento personalizado para o seu melhor amigo." />
+  <meta name="keywords" content="pet shop, banho e tosa, veterinário, produtos pet, hospedagem pet, cachorro, gato" />
+  <meta name="author" content="PetVille Pet Shop" />
+
+  <!-- SEO / Social -->
+  <meta property="og:title" content="PetVille Pet Shop - Cuidado completo para o seu melhor amigo" />
+  <meta property="og:description" content="Serviços de banho e tosa, veterinário, hospedagem e produtos selecionados em um ambiente acolhedor." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.seu-petshop-exemplo.com" />
+  <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=PetVille+Pet+Shop" />
+
+  <!-- Favicon placeholder -->
+  <link rel="icon" type="image/png" href="https://via.placeholder.com/32x32.png?text=P" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Icons (Font Awesome CDN - apenas ícones) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <title>PetVille Pet Shop | Cuidado completo para o seu melhor amigo</title>
+</head>
+<body>
+  <!-- Botão de voltar ao topo -->
+  <button class="back-to-top" aria-label="Voltar ao topo">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Botão flutuante WhatsApp -->
+  <a
+    href="https://wa.me/5500000000000?text=Ol%C3%A1%2C+gostaria+de+agendar+um+hor%C3%A1rio+para+meu+pet."
+    class="whatsapp-float"
+    target="_blank"
+    rel="noopener"
+    aria-label="Falar com PetVille pelo WhatsApp"
+  >
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header__container">
+      <a href="#hero" class="logo" aria-label="Ir para início">
+        <span class="logo__icon">
+          <i class="fas fa-paw"></i>
+        </span>
+        <span class="logo__text">
+          <span class="logo__name">PetVille</span>
+          <span class="logo__tagline">Pet Shop &amp; Clínica</span>
+        </span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        aria-label="Abrir menu"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+      >
+        <span class="nav-toggle__line"></span>
+        <span class="nav-toggle__line"></span>
+        <span class="nav-toggle__line"></span>
+      </button>
+
+      <nav class="nav" id="primary-navigation">
+        <ul class="nav__list">
+          <li><a href="#sobre" class="nav__link">Sobre</a></li>
+          <li><a href="#servicos" class="nav__link">Serviços</a></li>
+          <li><a href="#diferenciais" class="nav__link">Diferenciais</a></li>
+          <li><a href="#galeria" class="nav__link">Galeria</a></li>
+          <li><a href="#depoimentos" class="nav__link">Depoimentos</a></li>
+          <li><a href="#contato" class="nav__link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <a
+        href="https://wa.me/5500000000000?text=Ol%C3%A1%2C+gostaria+de+agendar+um+hor%C3%A1rio+para+meu+pet."
+        class="btn btn--primary header__cta"
+        target="_blank"
+        rel="noopener"
+      >
+        Falar no WhatsApp
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="container hero__container">
+        <div class="hero__content">
+          <p class="hero__eyebrow">Cuidado completo para cães e gatos</p>
+          <h1 class="hero__title">
+            Carinho, saúde e bem-estar para o seu melhor amigo.
+          </h1>
+          <p class="hero__subtitle">
+            Na <strong>PetVille</strong>, seu pet é tratado como parte da família.
+            Profissionais qualificados, ambiente seguro e serviços pensados em cada detalhe.
+          </p>
+
+          <div class="hero__actions">
+            <a
+              href="#contato"
+              class="btn btn--primary"
+            >
+              Agendar atendimento
+            </a>
+            <a
+              href="#servicos"
+              class="btn btn--outline"
+            >
+              Ver serviços
+            </a>
+          </div>
+
+          <ul class="hero__benefits">
+            <li><i class="fas fa-shield-heart"></i>Equipe veterinária experiente</li>
+            <li><i class="fas fa-bath"></i>Banho e tosa humanizados</li>
+            <li><i class="fas fa-house"></i>Hospedagem segura e confortável</li>
+          </ul>
+        </div>
+
+        <div class="hero__image-wrapper">
+          <div class="hero__badge">
+            <span class="hero__badge-icon"><i class="fas fa-star"></i></span>
+            <span class="hero__badge-text">
+              +1.200 pets<br />
+              felizes por ano
+            </span>
+          </div>
+          <img
+            src="https://images.pexels.com/photos/4587991/pexels-photo-4587991.jpeg?auto=compress&cs=tinysrgb&w=800"
+            alt="Cachorro sendo acariciado em um pet shop"
+            class="hero__image"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section section--light" id="sobre">
+      <div class="container section__container section__container--two-cols">
+        <div class="section__content">
+          <h2 class="section__title">Sobre a PetVille</h2>
+          <p class="section__lead">
+            A <strong>PetVille Pet Shop &amp; Clínica</strong> nasceu do amor incondicional
+            pelos animais e do desejo de oferecer uma experiência completa e acolhedora para tutores e pets.
+          </p>
+          <p>
+            Localizada em um ponto estratégico da zona sul de São Paulo, nossa estrutura foi pensada
+            para garantir conforto, segurança e praticidade em cada atendimento. Trabalhamos com uma equipe
+            multidisciplinar treinada para proporcionar um cuidado individualizado a cada pet.
+          </p>
+          <div class="section__highlight-box">
+            <h3 class="section__subtitle">Nossa missão</h3>
+            <p>
+              Cuidar da saúde, higiene e bem-estar dos animais de estimação com excelência técnica,
+              transparência e muito carinho, criando relações de confiança duradouras com nossos clientes.
+            </p>
+            <ul class="section__bullets">
+              <li><i class="fas fa-heart"></i>Cuidado humanizado e respeitoso</li>
+              <li><i class="fas fa-stethoscope"></i>Protocolos de segurança e higiene</li>
+              <li><i class="fas fa-hands-helping"></i>Atendimento próximo e transparente</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="section__media">
+          <div class="about__image-grid">
+            <img
+              src="https://images.pexels.com/photos/4473324/pexels-photo-4473324.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Veterinária examinando cachorro"
+              loading="lazy"
+            />
+            <img
+              src="https://images.pexels.com/photos/5731861/pexels-photo-5731861.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Banho em cachorro no pet shop"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="section" id="servicos">
+      <div class="container">
+        <header class="section__header">
+          <h2 class="section__title">Serviços PetVille</h2>
+          <p class="section__description">
+            Tudo o que o seu pet precisa em um só lugar, com segurança, carinho e profissionais especializados.
+          </p>
+        </header>
+
+        <div class="grid grid--services">
+          <article class="card service-card">
+            <div class="service-card__icon">
+              <i class="fas fa-shower"></i>
+            </div>
+            <h3 class="service-card__title">Banho e Tosa</h3>
+            <p class="service-card__text">
+              Procedimentos humanizados, produtos hipoalergênicos e ambiente climatizado para uma experiência tranquila e segura.
+            </p>
+          </article>
+
+          <article class="card service-card">
+            <div class="service-card__icon">
+              <i class="fas fa-stethoscope"></i>
+            </div>
+            <h3 class="service-card__title">Atendimento Veterinário</h3>
+            <p class="service-card__text">
+              Consultas, vacinas, check-up preventivo e orientações completas para garantir a saúde do seu melhor amigo.
+            </p>
+          </article>
+
+          <article class="card service-card">
+            <div class="service-card__icon">
+              <i class="fas fa-bone"></i>
+            </div>
+            <h3 class="service-card__title">Produtos para Pets</h3>
+            <p class="service-card__text">
+              Linha selecionada de rações, petiscos, brinquedos e acessórios para diferentes portes e necessidades.
+            </p>
+          </article>
+
+          <article class="card service-card">
+            <div class="service-card__icon">
+              <i class="fas fa-hotel"></i>
+            </div>
+            <h3 class="service-card__title">Hospedagem</h3>
+            <p class="service-card__text">
+              Espaços monitorados, rotinas de passeio e muita atenção para que seu pet se sinta em casa enquanto você viaja.
+            </p>
+          </article>
+
+          <article class="card service-card">
+            <div class="service-card__icon">
+              <i class="fas fa-user-check"></i>
+            </div>
+            <h3 class="service-card__title">Atendimento Personalizado</h3>
+            <p class="service-card__text">
+              Planos sob medida de acordo com o perfil do seu pet, histórico de saúde e rotina da família.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIFERENCIAIS -->
+    <section class="section section--accent" id="diferenciais">
+      <div class="container">
+        <header class="section__header">
+          <h2 class="section__title">Por que escolher a PetVille?</h2>
+          <p class="section__description">
+            Mais do que um pet shop, um verdadeiro centro de cuidado e bem-estar animal.
+          </p>
+        </header>
+
+        <div class="grid grid--features">
+          <div class="feature">
+            <i class="fas fa-user-graduate feature__icon"></i>
+            <h3 class="feature__title">Equipe qualificada</h3>
+            <p class="feature__text">
+              Veterinários, tosadores e auxiliares constantemente treinados e atualizados.
+            </p>
+          </div>
+
+          <div class="feature">
+            <i class="fas fa-lock feature__icon"></i>
+            <h3 class="feature__title">Ambiente seguro</h3>
+            <p class="feature__text">
+              Controle de acesso, monitoramento por câmeras e protocolos rigorosos de higiene.
+            </p>
+          </div>
+
+          <div class="feature">
+            <i class="fas fa-heart feature__icon"></i>
+            <h3 class="feature__title">Atendimento com carinho</h3>
+            <p class="feature__text">
+              Manuseio gentil, respeito aos limites de cada animal e tempo de adaptação.
+            </p>
+          </div>
+
+          <div class="feature">
+            <i class="fas fa-calendar-check feature__icon"></i>
+            <h3 class="feature__title">Agendamento fácil</h3>
+            <p class="feature__text">
+              Agende pelo WhatsApp ou formulário em poucos cliques e receba confirmações rápidas.
+            </p>
+          </div>
+
+          <div class="feature">
+            <i class="fas fa-location-dot feature__icon"></i>
+            <h3 class="feature__title">Localização acessível</h3>
+            <p class="feature__text">
+              Próximo a vias principais, com estacionamento conveniado e fácil acesso via transporte público.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ÁREAS DE ATENDIMENTO -->
+    <section class="section section--light" id="areas">
+      <div class="container section__container section__container--two-cols">
+        <div class="section__content">
+          <h2 class="section__title">Áreas de atendimento</h2>
+          <p class="section__lead">
+            Atendemos tutores de toda a região da zona sul de São Paulo, com foco em bairros próximos à nossa unidade.
+          </p>
+          <p>
+            Conte com a PetVille para serviços recorrentes de banho e tosa, acompanhamento veterinário e hospedagem sempre que precisar.
+          </p>
+        </div>
+
+        <div class="section__media">
+          <ul class="areas-list">
+            <li><i class="fas fa-location-arrow"></i>Vila Mariana</li>
+            <li><i class="fas fa-location-arrow"></i>Moema</li>
+            <li><i class="fas fa-location-arrow"></i>Brooklin</li>
+            <li><i class="fas fa-location-arrow"></i>Campo Belo</li>
+            <li><i class="fas fa-location-arrow"></i>Saúde</li>
+            <li><i class="fas fa-location-arrow"></i>Jabaquara</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section class="section" id="galeria">
+      <div class="container">
+        <header class="section__header">
+          <h2 class="section__title">Momentos PetVille</h2>
+          <p class="section__description">
+            Um pouco do dia a dia de carinho, diversão e cuidado com nossos hóspedes e clientes.
+          </p>
+        </header>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/5731865/pexels-photo-5731865.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Cachorro sendo secado após o banho"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/7469421/pexels-photo-7469421.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Gato em consulta veterinária"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/5731909/pexels-photo-5731909.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Cachorro sendo escovado no pet shop"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/7210300/pexels-photo-7210300.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Cães brincando em área de convivência"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/5731993/pexels-photo-5731993.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Cachorro no colo de cuidador"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/5731878/pexels-photo-5731878.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Cachorro feliz após banho"
+              loading="lazy"
+            />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section class="section section--light" id="depoimentos">
+      <div class="container">
+        <header class="section__header">
+          <h2 class="section__title">O que nossos clientes dizem</h2>
+          <p class="section__description">
+            Depoimentos reais de tutores que confiam a saúde e o bem-estar de seus pets à PetVille.
+          </p>
+        </header>
+
+        <div class="grid grid--testimonials">
+          <article class="card testimonial">
+            <div class="testimonial__header">
+              <div class="testimonial__avatar">
+                <i class="fas fa-user"></i>
+              </div>
+              <div>
+                <h3 class="testimonial__name">Mariana Costa</h3>
+                <p class="testimonial__pet">Tutora da Mel (Shih-tzu)</p>
+              </div>
+            </div>
+            <div class="testimonial__rating" aria-label="Avaliação 5 de 5 estrelas">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial__text">
+              "A Mel sempre teve medo de banho, mas na PetVille ela entra abanando o rabinho. O cuidado e a paciência da equipe fazem toda a diferença."
+            </p>
+          </article>
+
+          <article class="card testimonial">
+            <div class="testimonial__header">
+              <div class="testimonial__avatar">
+                <i class="fas fa-user"></i>
+              </div>
+              <div>
+                <h3 class="testimonial__name">Ricardo Almeida</h3>
+                <p class="testimonial__pet">Tutor do Thor (Labrador)</p>
+              </div>
+            </div>
+            <div class="testimonial__rating" aria-label="Avaliação 5 de 5 estrelas">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial__text">
+              "Confio totalmente na equipe veterinária. O acompanhamento preventivo e as orientações me deixam muito mais tranquilo."
+            </p>
+          </article>
+
+          <article class="card testimonial">
+            <div class="testimonial__header">
+              <div class="testimonial__avatar">
+                <i class="fas fa-user"></i>
+              </div>
+              <div>
+                <h3 class="testimonial__name">Ana Paula Nogueira</h3>
+                <p class="testimonial__pet">Tutora da Luna (SRD)</p>
+              </div>
+            </div>
+            <div class="testimonial__rating" aria-label="Avaliação 4 de 5 estrelas">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="far fa-star"></i>
+            </div>
+            <p class="testimonial__text">
+              "Utilizo a hospedagem sempre que viajo. Recebo fotos, vídeos e percebo que a Luna está sempre relaxada e feliz."
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA INTERMEDIÁRIO -->
+    <section class="section section--cta">
+      <div class="container cta">
+        <div class="cta__content">
+          <h2 class="cta__title">Quer agendar um horário para o seu pet?</h2>
+          <p class="cta__text">
+            Fale agora com nossa equipe pelo WhatsApp e tire todas as suas dúvidas sobre serviços, valores e horários disponíveis.
+          </p>
+        </div>
+        <div class="cta__actions">
+          <a
+            href="https://wa.me/5500000000000?text=Ol%C3%A1%2C+gostaria+de+agendar+um+atendimento+para+meu+pet."
+            class="btn btn--secondary"
+            target="_blank"
+            rel="noopener"
+          >
+            Falar no WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section" id="contato">
+      <div class="container section__container section__container--two-cols">
+        <div class="section__content">
+          <h2 class="section__title">Entre em contato</h2>
+          <p class="section__lead">
+            Preencha o formulário ou, se preferir, fale conosco diretamente pelo WhatsApp ou telefone.
+          </p>
+
+          <div class="contact-info">
+            <div class="contact-info__item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h3>Telefone</h3>
+                <p>(11) 4000-1234</p>
+              </div>
+            </div>
+            <div class="contact-info__item">
+              <i class="fab fa-whatsapp"></i>
+              <div>
+                <h3>WhatsApp</h3>
+                <p>(11) 9 9999-0000</p>
+              </div>
+            </div>
+            <div class="contact-info__item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h3>E-mail</h3>
+                <p>contato@petville.com.br</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section__media">
+          <form class="form" id="contactForm" novalidate>
+            <div class="form__group">
+              <label for="nome">Nome completo</label>
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Como podemos te chamar?"
+                required
+              />
+              <small class="form__error" aria-live="polite"></small>
+            </div>
+
+            <div class="form__group">
+              <label for="telefone">Telefone</label>
+              <input
+                type="tel"
+                id="telefone"
+                name="telefone"
+                placeholder="(00) 00000-0000"
+                required
+              />
+              <small class="form__error" aria-live="polite"></small>
+            </div>
+
+            <div class="form__group">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="seuemail@exemplo.com"
+                required
+              />
+              <small class="form__error" aria-live="polite"></small>
+            </div>
+
+            <div class="form__group">
+              <label for="mensagem">Mensagem</label>
+              <textarea
+                id="mensagem"
+                name="mensagem"
+                placeholder="Conte como podemos ajudar você e seu pet."
+                rows="4"
+                required
+              ></textarea>
+              <small class="form__error" aria-live="polite"></small>
+            </div>
+
+            <button type="submit" class="btn btn--primary form__submit">
+              Enviar mensagem
+            </button>
+            <p class="form__success" id="formSuccess" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCALIZAÇÃO -->
+    <section class="section section--light" id="localizacao">
+      <div class="container section__container section__container--two-cols">
+        <div class="section__content">
+          <h2 class="section__title">Onde estamos</h2>
+          <p class="section__lead">
+            Venha nos visitar e conhecer nossa estrutura pensada para o conforto do seu pet.
+          </p>
+          <p>
+            <strong>Endereço fictício:</strong><br />
+            Rua das Patinhas Felizes, 123 - Vila Mariana<br />
+            São Paulo - SP, 04100-000
+          </p>
+          <p>
+            Funcionamos de segunda a sábado, das 8h às 19h. Aos domingos, atendimento sob agendamento prévio para hospedagem e emergências.
+          </p>
+        </div>
+
+        <div class="section__media">
+          <div class="map-wrapper">
+            <iframe
+              title="Mapa da localização do PetVille Pet Shop"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.869528057418!2d-46.64733122375322!3d-23.57227446215871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59cba74d9f8b%3A0x5a2d7c96c7e8b8cd!2sVila%20Mariana%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+              width="100%"
+              height="100%"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__col footer__col--brand">
+        <a href="#hero" class="logo logo--footer">
+          <span class="logo__icon">
+            <i class="fas fa-paw"></i>
+          </span>
+          <span class="logo__text">
+            <span class="logo__name">PetVille</span>
+            <span class="logo__tagline">Pet Shop &amp; Clínica</span>
+          </span>
+        </a>
+        <p class="footer__about">
+          Cuidado completo para o seu pet, unindo carinho, estrutura moderna e profissionais especializados
+          em um só lugar.
+        </p>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__title">Links rápidos</h3>
+        <ul class="footer__list">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a href="#localizacao">Localização</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__title">Contato</h3>
+        <ul class="footer__list footer__list--contact">
+          <li><i class="fas fa-phone"></i><span>(11) 4000-1234</span></li>
+          <li><i class="fab fa-whatsapp"></i><span>(11) 9 9999-0000</span></li>
+          <li><i class="fas fa-envelope"></i><span>contato@petville.com.br</span></li>
+        </ul>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram PetVille"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook PetVille"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="TikTok PetVille"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-container">
+        <p>© <span id="year"></span> PetVille Pet Shop. Todos os direitos reservados.</p>
+        <p class="footer__dev">Desenvolvido para demonstração de portfólio.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
