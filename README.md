@@ -75,19 +75,7 @@ experiência em:
 Você pode acessar o projeto online através do deploy:
 
 🔗 **Demo:**\
-Adicione aqui o link do seu deploy (Vercel, Netlify, etc.)
-
-Exemplo: https://seu-projeto.vercel.app
-
-------------------------------------------------------------------------
-
-## 💡 Possíveis melhorias
-
--   Integração com sistema de agendamento
--   Área administrativa para edição de conteúdo
--   Integração com CRM ou ferramentas de marketing
--   Otimização avançada para SEO
-
+https://brunodada.github.io/petshop/
 ------------------------------------------------------------------------
 
 ## 👨‍💻 Autor
